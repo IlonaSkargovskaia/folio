@@ -15,6 +15,11 @@ const Contacts = () => {
     const handleSendMessage = (e) => {
         e.preventDefault();
 
+        if (!name || !email || !message) {
+            setSuccessMessage("Please fill out all required fields.");
+            return; 
+        }
+
         emailjs
             .sendForm(
                 "service_z45coha",
