@@ -1,36 +1,27 @@
 export const workExperienceData = [
     {
-        title: "FULL-STACK DEVELOPER",
+        title: "Front End DEVELOPER",
         year: "nov 2023 - present",
         company: "TLV Coding Bootcamp Developers Institute",
         country: "Israel",
         description: [
-            "Creating myself a complicated multilingual Website for a Bootcamp from scratch till production",
-            "Structuring and implementing content in 5 languages for accessibility using WordPress CMS",
-            "Bringing the design to life using Figma",
-        ],
-    },
-    {
-        title: "FULL-STACK MOBILE DEVELOPER",
-        year: "aug 2023 - dec 2023",
-        company: "Say-Hi & i-CheckIn",
-        country: "Israel",
-        description: [
-            "Designed and implemented new logo and redesigned all screens in the application",
-            "Created a responsive landing page from scratch using React.js and Tailwind CSS",
-            "Developed backend logic using Firebase and Cloud Functions for user profiles, data storage, and avatars uploads by phone or camera, securely storing images in Cloud Storage and linking them to Firestore DB",
-            "Implemented bottom navigation, settings, location, auth, and profile screens with React Native",
+            "Developing complex multilingual website for an international institution conducting business in 12+ countries, optimizing all cross browser and multi-platform compatibility",
+            "Created multiple dynamic websites using React, Redux Toolkit, Google Firebase",
+            "Developed a new user-friendly interface for the company’s web app, leading to a 20% increase in user registrations",
+            "Collaborating with UX designers and team of 5 to translate design concepts into fully functional user interfaces",
         ],
     },
     {
         title: "FULL-STACK DEVELOPER",
-        year: "aug 2023 - sep 2023",
-        company: "“TicketPRO / Personal project”",
+        year: "aug 2023 - jan 2023",
+        company: "Say-Hi & i-CheckIn",
         country: "Israel",
         description: [
-            "Developed frontend with complete CRUD functionality for efficient data management using React.js",
-            "Built backend using Node.js, connecting it to PostgreSQL DB while structuring it following the MVC pattern",
-            "Features: event filtering, JWT authentication, user and organizer dashboards, AWS for store images, ticket purchasing, interactive hall, QR-code generation, email integration using Nodemailer, maps with Leaflet",
+            "Developed 2 completely responsive, cross-browser websites, Dashboard and 2 mobile application using React.js, React Native, JavaScript, SASS, MUI and Tailwind",
+            "Implemented state management solutions Redux Toolkit to manage complex application state",
+            "Created backend using Firebase and Cloud Functions for user profiles and data storage",
+            "Integrated essential features such as filtering, JWT authentication, and interactive elements like maps and QR-code generation, enhancing the functionality and user engagement of web applications",
+            "Built backend for one of websites based on Node.js, Express, PostgreSQL DB following the MVC pattern",
         ],
     },
     {
@@ -39,20 +30,19 @@ export const workExperienceData = [
         company: "Kids.by",
         country: "Belarus",
         description: [
-            "Developed comprehensive printing solutions for family events",
-            "Created a full range of services from design to finished products, using plotter cutting, embossing, and printing equipment",
+            "Produced full range of services from design to finished products, using plotter cutting, embossing and printing equipment. Developed comprehensive printing solutions for family events",
             "Create and organize original, high-quality video-content",
             "Collaborate with brands and businesses to produce sponsored content, product reviews, and promotions",
             "Do consulting for entrepreneurs on starting and promoting their businesses on social networks",
         ],
     },
     {
-        title: "WEB-DEVELOPER",
+        title: "Front End DEVELOPER",
         year: "2014 - 2020",
         company: "Minsk state concert organization",
         country: "Belarus",
         description: [
-            "Created more than 60 personal, promotional, and commercial websites for different state projects with a unique design based on CMS Wordpress and CMS Joomla",
+            "Created more than 60 personal, promotional and commercial websites for different state projects with a unique design based on CMS Wordpress and CMS Joomla",
             "Successfully led and managed a team of seven people",
             "Utilized Photoshop to design and create promotional products",
         ],
@@ -63,8 +53,8 @@ export const workExperienceData = [
         company: 'Internet agency "WEBMEDIA"',
         country: "Belarus",
         description: [
-            "Transformed Photoshop design concepts into responsive and visually appealing web pages",
-            "Implemented strategic SEO promotion initiatives to optimize website performance and increase organic visibility",
+            "Developed fully responsive websites from scratch till production using HTML, CSS, JavaScript and CMS",
+            "Utilized the best practices and coding standards to improve organic visitors to company websites by 70%",
         ],
     },
 ];
