@@ -689,6 +689,10 @@ a:active {
     border: 0;
 }
 
+.css-sghohy-MuiButtonBase-root-MuiButton-root.Mui-disabled{
+    background-color: rgb(80 80 80 / 12%) !important;
+}
+
 .contacts-form .MuiTextField-root {
     margin: 0.3rem 0;
 }

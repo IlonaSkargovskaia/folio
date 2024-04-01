@@ -10,15 +10,19 @@ const Contacts = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [successMessage, setSuccessMessage] = useState("");
+    const [isSubmitDisabled, setIsSubmitDisabled] = useState(true);
     const form = useRef();
+
+    const handleInputChange = () => {
+        if (name && email && message) {
+            setIsSubmitDisabled(false);
+        } else {
+            setIsSubmitDisabled(true);
+        }
+    };
 
     const handleSendMessage = (e) => {
         e.preventDefault();
-
-        if (!name || !email || !message) {
-            setSuccessMessage("Please fill out all required fields.");
-            return; 
-        }
 
         emailjs
             .sendForm(
@@ -117,44 +121,62 @@ const Contacts = () => {
                 </div>
                 <div className="contacts-form block-column">
                     {successMessage ? (
-                        <Typography
-                            variant="body2"
-                            color="success"
-                            className="successmsg"
-                            style={{ marginTop: "1rem" }}
-                        >
-                            {successMessage}
-                        </Typography>
+                        <>
+                            <Typography
+                                variant="body2"
+                                color="success"
+                                className="successmsg"
+                                style={{ marginTop: "1rem" }}
+                            >
+                                {successMessage}
+                            </Typography>
+                        </>
                     ) : (
                         <form onSubmit={handleSendMessage} ref={form}>
                             <TextField
                                 label="Name"
+                                required
                                 fullWidth
                                 value={name}
                                 name="user_name"
-                                onChange={(e) => setName(e.target.value)}
+                                onChange={(e) => {
+                                    setName(e.target.value);
+                                    handleInputChange();
+                                }}
                             />
                             <TextField
                                 label="Phone"
+                                required
                                 fullWidth
                                 value={phone}
-                                onChange={(e) => setPhone(e.target.value)}
+                                onChange={(e) => {
+                                    setPhone(e.target.value);
+                                    handleInputChange();
+                                }}
                             />
                             <TextField
                                 label="Email"
+                                required
                                 fullWidth
                                 value={email}
                                 name="user_email"
-                                onChange={(e) => setEmail(e.target.value)}
+                                onChange={(e) => {
+                                    setEmail(e.target.value);
+                                    handleInputChange();
+                                }}
                             />
                             <TextField
                                 label="Message..."
+                                required
                                 multiline
                                 rows={4}
                                 fullWidth
                                 value={message}
                                 name="message"
-                                onChange={(e) => setMessage(e.target.value)}
+                                onChange={(e) => {
+                                    setMessage(e.target.value);
+                                    handleInputChange();
+                                }}
                             />
                             <Button
                                 variant="contained"
@@ -162,6 +184,7 @@ const Contacts = () => {
                                 onClick={handleSendMessage}
                                 className="download"
                                 style={{ marginTop: "1rem" }}
+                                disabled={isSubmitDisabled}
                             >
                                 Send Message
                             </Button>
