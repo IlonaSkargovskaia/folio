@@ -689,7 +689,7 @@ a:active {
     border: 0;
 }
 
-.css-sghohy-MuiButtonBase-root-MuiButton-root.Mui-disabled{
+.contacts-block button:disabled{
     background-color: rgb(80 80 80 / 12%) !important;
 }
 
