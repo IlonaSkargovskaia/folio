@@ -34,7 +34,7 @@ export const projectsData = [
         video: vid10
     },
     {
-        id: 1,
+        id: 2,
         title: "ECommerce Website with Redux Toolkit",
         image: img9,
         languages: ["Redux Toolkit", "React.js", "API", "SASS"],
@@ -45,7 +45,7 @@ export const projectsData = [
         video: vid1
     },
     {
-        id: 2,
+        id: 3,
         title: "Website for TLV Coding Bootcamp",
         image: img8,
         languages: ["WordPress", "Elementor", "CSS"],
@@ -56,7 +56,7 @@ export const projectsData = [
         video: vid9
     },
     {
-        id: 3,
+        id: 4,
         title: "Event ticketing system with QR codes",
         image: img1,
         languages: ["React", "Node.js", "PostgreSQL", "JWT"],
@@ -67,7 +67,7 @@ export const projectsData = [
         video: vid8
     },
     {
-        id: 4,
+        id: 5,
         title: "Chat Application",
         image: img2,
         languages: ["React", "Google Firebase", "SASS"],
@@ -78,7 +78,7 @@ export const projectsData = [
         video: vid7
     },
     {
-        id: 5,
+        id: 6,
         title: "Marketing page for Mobile App - iCheckIn",
         image: img3,
         languages: ["React", "CSS", "Tailwind", "Figma"],
@@ -89,7 +89,7 @@ export const projectsData = [
         video: vid6
     },
     {
-        id: 6,
+        id: 7,
         title: "Dashboard UX/UI for iCheckin App",
         image: img7,
         languages: ["React", "MUI", "JSON"],
@@ -100,7 +100,7 @@ export const projectsData = [
         video: vid5
     },
     {
-        id: 7,
+        id: 8,
         title: "Marketing page for Mobile App - Say Hi",
         image: img6,
         languages: ["React", "CSS", "Tailwind", "Figma"],
@@ -111,7 +111,7 @@ export const projectsData = [
         video: vid4
     },
     {
-        id: 8,
+        id: 9,
         title: "Weather App with API",
         image: img4,
         languages: ["React", "API", "CSS"],
@@ -123,7 +123,7 @@ export const projectsData = [
 
     },
     {
-        id: 9,
+        id: 10,
         title: "Music player",
         image: img5,
         languages: ["JavaScript", "CSS", "HTML"],
