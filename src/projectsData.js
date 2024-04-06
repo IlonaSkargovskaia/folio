@@ -7,6 +7,7 @@ import img6 from './assets/images/6.png'
 import img7 from './assets/images/7.png'
 import img8 from './assets/images/8.png'
 import img9 from './assets/images/9.png'
+import img10 from './assets/images/10.jpg'
 
 import vid1 from './assets/videos/ecommerce.mp4'
 import vid2 from './assets/videos/music.mp4'
@@ -17,9 +18,21 @@ import vid6 from './assets/videos/icheckin-landing.mp4'
 import vid7 from './assets/videos/chat.mp4'
 import vid8 from './assets/videos/ticketpro.mp4'
 import vid9 from './assets/videos/devinst.mp4'
+import vid10 from './assets/videos/pilates.mp4'
 
 
 export const projectsData = [
+    {
+        id: 1,
+        title: "Fitness Studio - New Age Studio",
+        image: img10,
+        languages: ["WordPress", "JavaScript", "Elementor", "CSS"],
+        category: "Website",
+        description: "The site what I created from scratch till production in one week. I bring my unique design what I created according to brand style of studios and it is all about making fitness accessible and engaging, with smooth animations and website adapts to any device. It's easy for users to explore classes, learn about trainers, and sign up for sessions. With dynamic content management and responsive design, managing the site is a breeze.",
+        // githubLink: "https://github.com/IlonaSkargovskaia/ecommerce",
+        liveDemoLink: "https://newagestudio.co.il/",
+        video: vid10
+    },
     {
         id: 1,
         title: "ECommerce Website with Redux Toolkit",
