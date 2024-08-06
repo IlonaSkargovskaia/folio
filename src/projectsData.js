@@ -52,7 +52,7 @@ export const projectsData = [
         category: "Website",
         description: "Multilingual, completely responsive and easy-to-use online space developed for TLV Coding Bootcamp. I made it using WordPress, Elementor PRO from scratch till production. Created custom templates to make sure it's simple to navigate for everyone and offers information in five different languages.",
         // githubLink: "https://github.com/your-username/project1",
-        liveDemoLink: "https://stagingdi.wpengine.com/",
+        liveDemoLink: "https://devdi.wpengine.com/",
         video: vid9
     },
     {
@@ -95,8 +95,6 @@ export const projectsData = [
         languages: ["React", "MUI", "JSON"],
         category: "Dashboard",
         description: "Comprehensive user-friendly interface to serve as the control center for event organizers using the iCheckin App. Developed using React, Material-UI (MUI), and JSON for data representation, this dashboard provides an intuitive and efficient platform for tracking attendance at various events.",
-        // githubLink: "https://github.com/your-username/project2",
-        // liveDemoLink: "https://your-project-demo.com",
         video: vid5
     },
     {
@@ -106,7 +104,6 @@ export const projectsData = [
         languages: ["React", "CSS", "Tailwind", "Figma"],
         category: "Landing",
         description: "Designed to promote a mobile application focused on reconnecting individuals. Developed using React, CSS, and the Tailwind CSS framework, this marketing page aims to effectively communicate the app's features, benefits, and unique selling points to potential users.",
-        // githubLink: "https://github.com/your-username/project2",
         liveDemoLink: "https://say-hi.app/",
         video: vid4
     },
