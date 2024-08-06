@@ -27,7 +27,7 @@ const SideBar = ({ onClose }) => {
                         color: "#8f9bba",
                     }}
                 >
-                    Full Stack developer
+                    Front End Developer
                 </div>
             </div>
 

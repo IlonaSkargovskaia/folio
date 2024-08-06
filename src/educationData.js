@@ -7,7 +7,7 @@ export const educationData = [
         
     },
     {
-        title: "BACHELOR OF SOFTWARE ENGINEERING",
+        title: "Bachelor degree of Computer Science",
         country: "Belarus",
         year: "2012 - 2016",
         institution:
@@ -15,7 +15,7 @@ export const educationData = [
         
     },
     {
-        title: "SOFTWARE TECHNICIAN",
+        title: "Specialist degree",
         country: "Belarus",
         year: "2008-2012",
         institution: "Minsk Radioengineering College",

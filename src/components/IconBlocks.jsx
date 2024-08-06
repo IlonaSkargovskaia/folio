@@ -12,12 +12,12 @@ const IconBlocks = () => {
         <div className="icon-blocks">
             <IconBlock
                 icon={<ExperienceIcon />}
-                number="5+"
+                number="3+"
                 label="Years of Experience"
             />
             <IconBlock
                 icon={<ProjectsIcon />}
-                number="80+"
+                number="30+"
                 label="Completed Projects"
             />
             <IconBlock

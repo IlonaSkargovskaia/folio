@@ -12,7 +12,7 @@ const Header = () => {
             <div id="home">
                 <h1>
                     Hi there! I’m Ilona <br />
-                    <span>Full Stack</span> Developer
+                    <span>Front End</span> Developer
                 </h1>
             </div>
             <div className="flex ac header-box">

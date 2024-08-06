@@ -97,7 +97,7 @@ const Contacts = () => {
                             <div>
                                 <a
                                     href={resumePDF}
-                                    download="Ilona_Skargovskaia_Resume.pdf"
+                                    download="Frontend_Dev_CV_Ilona_Skargovskaya.pdf"
                                 >
                                     <Button
                                         variant="contained"
